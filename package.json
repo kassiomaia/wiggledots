@@ -1,0 +1,18 @@
+{
+  "name": "wiggledots",
+  "version": "1.0.0",
+  "description": "",
+  "author": "Kássio Maia de Queiroz",
+  "license": "ISC",
+  "scripts": {
+    "watch": "turbo run watch",
+    "check-types": "turbo run check-types",
+    "dev": "turbo run dev",
+    "build": "turbo run build",
+    "preview": "turbo run preview"
+  },
+  "packageManager": "pnpm@10.10.0",
+  "devDependencies": {
+    "turbo": "^2.5.4"
+  }
+}

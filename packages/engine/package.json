@@ -1,0 +1,28 @@
+{
+  "name": "@wiggledots/engine",
+  "version": "1.0.0",
+  "description": "",
+  "main": "./dist/index.js",
+  "exports": {
+    "default": "./dist/index.mjs"
+  },
+  "types": "./dist/index.d.mts",
+  "scripts": {
+    "build": "tsup",
+    "watch": "tsup --watch",
+    "check-types": "tsc --noEmit"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "packageManager": "pnpm@10.10.0",
+  "dependencies": {
+    "@wiggledots/audio": "workspace:*",
+    "@wiggledots/webgl": "workspace:*"
+  },
+  "devDependencies": {
+    "tslib": "^2.8.1",
+    "tsup": "^8.5.0",
+    "typescript": "^5.8.3"
+  }
+}

@@ -1,0 +1,32 @@
+@import url("https://fonts.googleapis.com/css2?family=Luckiest+Guy&family=Nunito:wght@700;900&display=swap");
+
+:root {
+  --color-bg: #010420;
+  --color-panel: #3d2c3e;
+  --color-accent: #ff6b9d;
+  --color-accent-dark: #e91e63;
+  --color-text: #f8e1f0;
+  --color-counter-bg: #4a3d4b;
+  --color-disabled: #6b5b6c;
+  --color-stroke: #ff477e;
+
+  --font-title: "Luckiest Guy", cursive;
+  --font-body: "Nunito", sans-serif;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: var(--color-bg);
+  color: var(--color-text);
+  font-family:
+    var(--font-body),
+    serif;
+  font-weight: 700;
+  overflow: hidden;
+  height: 100vh;
+}
